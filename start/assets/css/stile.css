@@ -1,0 +1,205 @@
+/* --------------------- IMPOSTAZIONI GENERALI---------------------  */
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    background-color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    max-width: 100%;
+    overflow-x: hidden;
+
+
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #25a2c3;
+
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+cite {
+    font-style: normal;
+}
+
+hr {
+    border: 1px solid #fff;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* --------------------- HEADER ---------------------------- */
+
+header {
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    padding: 30px;
+}
+
+/* img logo */
+
+header div img {
+    width: 40%;
+}
+
+/* --------------------- MAIN ---------------------------- */
+
+main {
+    width: 100vw;
+}
+
+/* div primo figlio di main */
+
+main div:first-child {
+    text-align: center;
+    padding: 5%;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Link */
+
+main div a:link {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+main div a:visited {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+main div p {
+    margin-bottom: 30px;
+}
+
+/* div fratello adiacente a div */
+main div+div {
+    text-align: center;
+    padding: 5%;
+}
+
+main div img {
+    width: 80%;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+/* div ultimo figlio */
+main div + :last-child {
+    background-color: #e22d0e;
+    color: #fff;
+    padding: 5%;
+}
+
+/* colore h1 dentro il div di main */
+main div+ :last-child h1 {
+    color: #fff;
+}
+
+/* scritta CEO, Epicode */
+main div blockquote cite p+p {
+    margin-top: -30px;
+    font-size: 0.7rem;
+}
+
+/* --------------------- ASIDE ---------------------------- */
+
+aside {
+    width: 100vw;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 20px;
+}
+
+aside div {
+    border: 1px solid #dee1e3;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+aside div img {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+aside div p {
+    font-size: 0.9rem;
+    margin: 30px 30px 50px 30px;
+}
+
+/* --------------------- FOOTER ---------------------------- */
+
+footer {
+    width: 100vw;
+    color: #fff;
+    background-color: #22aacc;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 5%;
+}
+
+footer  h1 {
+    color: #fff;
+
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a:link {
+    color: #c8e7f0;
+}
+footer  a:visited {
+    color: #c8e7f0;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
